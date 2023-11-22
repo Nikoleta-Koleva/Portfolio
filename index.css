@@ -63,7 +63,7 @@ h2 {
 }
 section {
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     width: 100%;
     font-size: 40px;
     align-items: center;
@@ -78,28 +78,8 @@ p {
     max-width: 650px;
     text-align: center;
 }
-#Introduction {
-    display: flex;
-}
-#About {
-    display: flex;
-    height: 85vh;
-}
-#Experience {
-    display: flex;
-    height: 85vh;
-}
-#Projects {
-    background: #fff;
-    height: 580vh;
-    padding-top: 50px;
-    padding-bottom: 70px;
-}
-#Contacts {
-    display: flex;
-    height: 50vh;
-    padding-top: 50px;
-    padding-bottom: 70px;
+#social-media-buttons {
+  padding-bottom: 0px;
 }
 .displayAsBlock {
     display: block;
@@ -127,7 +107,6 @@ button:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 button:active{
     box-shadow: inset -2px -2px 3px #808080,
     inset 2px 2px 3px #808080;
@@ -155,15 +134,16 @@ button:active{
 }
 .footerContainer {
     background: #333;
-    height: 30vh;
     width: 100%;
+    margin-top: auto;
 }
 a {
     text-decoration: none;
     color:black;
 }
 section {
-    padding: 10rem 0;
+    display: flex;
+    padding: 5rem 0;
     background-color: #fff;
 }
 .heading {
@@ -283,6 +263,8 @@ section {
 }
 .hero_desc {
     font-size: 2rem;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .hero-text {
     text-align: center;
@@ -309,4 +291,5 @@ section {
     .card {
         margin: 2rem;
     }
+
 }
