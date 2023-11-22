@@ -299,34 +299,36 @@ a {
 }
 @media screen and (max-width: 650px) {
   nav {
-    height: 300px;
+    height: 220px;
   }
   nav .navbar {
-    padding-top: 14px;
+    padding-top: 10px;
     flex-direction: column;
   }
   nav .menu {
     flex-direction: column;
   }
   .navbar .menu li {
-      margin: 14px;
+      margin: 8px;
       text-align: center;
   }
-
-  /* #Introduction {
-    margin-top: 300px;
+  #Introduction {
+    margin-top: 220px;
   }
   #About, #Experience, #Contacts {
-    padding-top: 190px;
+    padding-top: 120px;
     padding-left: 20px;
     padding-right: 20px;
   }
   #Résumé {
-    padding-top: 200px;
+    padding-top: 150px;
+  }
+  .resumeImage {
+    height:80vh;
   }
   #Projects {
-    padding-top: 170px;
-  } */
+    padding-top: 100px;
+  }
   .hero_title {
     font-size: 40px;
   }
