@@ -75,10 +75,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-#Contacts {
-  padding: 0rem 0;
-  padding-top: 1rem;
-}
 p {
     margin: 0 0 20px;
     font-size: 18px;
@@ -238,7 +234,8 @@ a {
     font-size: 2.5rem;
 }
 .logoContainer {
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 230px 230px;
+    text-align: center;
 }
 .companiesContainer {
     display: grid;
@@ -254,6 +251,7 @@ a {
 }
 .column {
     flex: 50%;
+    margin-left: 70px;
 }
 /* hero background image */
 .bgimage {
@@ -322,9 +320,6 @@ a {
   }
   #Résumé {
     padding-top: 150px;
-  }
-  .resumeImage {
-    height:80vh;
   }
   #Projects {
     padding-top: 100px;
