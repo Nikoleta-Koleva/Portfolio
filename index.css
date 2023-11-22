@@ -52,6 +52,9 @@ nav .navbar .menu {
     font-weight: 500;
     text-decoration: none;
 }
+.navbar .menu li :hover {
+  color: silver;
+}
 h1, h2 {
     text-transform: uppercase;
     margin: 0 0 30px;
@@ -62,12 +65,19 @@ h2 {
     font-size: 30px;
 }
 section {
+    display: flex;
+    padding: 5rem 0;
+    background-color: #fff;
     flex-direction: column;
     height: auto;
     width: 100%;
     font-size: 40px;
     align-items: center;
     justify-content: center;
+}
+#Contacts {
+  padding: 0rem 0;
+  padding-top: 1rem;
 }
 p {
     margin: 0 0 20px;
@@ -140,11 +150,6 @@ button:active{
 a {
     text-decoration: none;
     color:black;
-}
-section {
-    display: flex;
-    padding: 5rem 0;
-    background-color: #fff;
 }
 .heading {
     margin-right: -3px;
@@ -291,5 +296,41 @@ section {
     .card {
         margin: 2rem;
     }
+}
+@media screen and (max-width: 650px) {
+  nav {
+    height: 300px;
+  }
+  nav .navbar {
+    padding-top: 14px;
+    flex-direction: column;
+  }
+  nav .menu {
+    flex-direction: column;
+  }
+  .navbar .menu li {
+      margin: 14px;
+      text-align: center;
+  }
 
+  /* #Introduction {
+    margin-top: 300px;
+  }
+  #About, #Experience, #Contacts {
+    padding-top: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #Résumé {
+    padding-top: 200px;
+  }
+  #Projects {
+    padding-top: 170px;
+  } */
+  .hero_title {
+    font-size: 40px;
+  }
+  .hero_desc {
+    font-size: 25px;
+  }
 }
