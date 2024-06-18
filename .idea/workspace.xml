@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef59824-e541-4e46-920c-76c6f144ebbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +45,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projects/Portfolio website/files&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/C387repos/Classwork and assignments/Assignment 36 school-database-Nikoleta-Koleva&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,7 +91,10 @@
       <workItem from="1698508502925" duration="956000" />
       <workItem from="1718014279072" duration="24307000" />
       <workItem from="1718056388701" duration="1111000" />
-      <workItem from="1718124964445" duration="2795000" />
+      <workItem from="1718124964445" duration="3603000" />
+      <workItem from="1718399514665" duration="426000" />
+      <workItem from="1718399954704" duration="595000" />
+      <workItem from="1718663629697" duration="1467000" />
     </task>
     <servers />
   </component>
